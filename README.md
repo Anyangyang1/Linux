@@ -7,5 +7,7 @@
   sudo tcpdump                          # 抓取数据包
 
   route                                 # 查看路由表
+
+  netstat -nat                          # 查看连接状态
 ```
 
