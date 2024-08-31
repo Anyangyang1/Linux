@@ -9,5 +9,8 @@
   route                                 # 查看路由表
 
   netstat -nat                          # 查看连接状态
+
+  iptables -L INPUT --line-numbers      # 查看防火墙的所有规则
+  iptables -D INPUT 规则号              # 删除某一条规则
 ```
 
